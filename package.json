@@ -1,0 +1,12 @@
+{
+  "name": "collate-config",
+  "description": "A utility that climbs the directory tree looking for and optionally combining config files specified in parent modules/projects.",
+  "version": "1.0.0",
+  "author": "Mason Bond <supergoat@gmail.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masonbond/collate-config.git"
+  },
+  "main": "./index.js"
+}
