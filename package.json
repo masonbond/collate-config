@@ -1,7 +1,7 @@
 {
   "name": "collate-config",
   "description": "A utility that climbs the directory tree looking for and optionally combining config files specified in parent modules/projects.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Mason Bond <supergoat@gmail.com>",
   "license": "UNLICENSED",
   "repository": {
