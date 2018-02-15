@@ -1,10 +1,12 @@
 const fs = require('fs');
 
+const startDir = __dirname;
+
 function collateConfig(searchFile) {
     if (typeof searchFile !== 'string')
         throw new TypeError('`searchFile` is required and must be a String');
     
-    let searchPath = __dirname.split('/');
+    let searchPath = startDir.split('/');
     let result = {};
 
     while (searchPath.length > 0) {
