@@ -35,3 +35,4 @@ function collateConfig(searchFile) {
 }
 
 exports.default = collateConfig;
+exports.__esModule = true;
